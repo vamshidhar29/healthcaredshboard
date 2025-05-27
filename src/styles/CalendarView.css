@@ -1,0 +1,144 @@
+.calendar-view {
+  /* max-width: 800px; */
+  margin: auto;
+  font-family: Arial, sans-serif;
+  background: #f7f9fc;
+  padding: 20px;
+}
+
+.calendar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.calendar-nav button {
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  color: #3d3d7a;
+}
+
+.calendar-grid {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.calendar-day {
+  /* background: white; */
+  border-radius: 12px;
+  padding: 1px;
+  width: 60px;
+  text-align: center;
+}
+
+.faded {
+  color: #ccc;
+}
+
+.date-box {
+  padding: 1px;
+  border-radius: 12px;
+}
+
+.date-box.selected {
+  background-color: #eef2ff;
+}
+
+.day-name {
+  font-weight: bold;
+  color: #3d3d7a;
+}
+
+.day-number {
+  font-size: 20px;
+}
+
+.time-slots {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.time-slot {
+  background: transparent;
+  padding: 3px;
+  border-radius: 6px;
+  font-size: 13px;
+}
+
+.time-slot.highlight {
+  background-color: #3d3d7a;
+  color: white;
+}
+
+.time-slot.light-highlight {
+  background-color: #e3e3fc;
+  color: #3d3d7a;
+}
+
+.appointments {
+  display: flex;
+  gap: 10px;
+}
+
+.appointment {
+  padding: 10px 10px;
+  border-radius: 16px;
+  width: 100%;
+  max-width: 360px;
+}
+
+.dentist {
+  background-color: #3d3d7a;
+  color: white;
+}
+
+.physio {
+  background-color: #e3e3fc;
+  color: #3d3d7a;
+}
+
+.appointment .title {
+  font-weight: bold;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.appointment .time,
+.appointment .doctor {
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+@media (max-width: 768px) {
+  .calendar-view {
+    padding: 10px;
+  }
+
+  .calendar-header {
+    margin-bottom: 15px;
+    font-size: 15px;
+  }
+
+  .calendar-nav button {
+    font-size: 15px;
+  }
+
+  .calendar-day {
+    border-radius: 6px;
+    width: 40px;
+  }
+
+  .day-number {
+    font-size: 15px;
+  }
+}

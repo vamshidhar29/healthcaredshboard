@@ -1,0 +1,47 @@
+.search {
+    width: 350px;
+}
+
+.profile-box {
+    height: 35px;
+    width: 35px;
+    background-color: #00cfe6;
+}
+
+.profile-box-add {
+    height: 35px;
+    width: 35px;
+    background-color: #3d3d7a;
+}
+
+.header-height {
+    height: 12vh;
+}
+
+@media (max-width: 768px) {
+    .search {
+        outline: 0px;
+        width: 200px;
+    }
+
+    .header-height {
+        height: 8vh;
+    }
+
+    .profile-box {
+        height: 30px;
+        width: 30px;
+    }
+
+    .profile-box-add {
+        height: 30px;
+        width: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .search {
+        outline: 0px;
+        width: 120px;
+    }
+}

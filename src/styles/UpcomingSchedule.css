@@ -1,0 +1,27 @@
+.upcoming-schedule {
+  background-color: #f7f9fc;
+  padding: 24px;
+  max-width: 800px;
+  margin: auto;
+  font-family: Arial, sans-serif;
+}
+
+.upcoming-schedule h2 {
+  color: #1e1e4f;
+  margin-bottom: 20px;
+}
+
+.schedule-group {
+  margin-bottom: 24px;
+}
+
+.schedule-group h4 {
+  margin-bottom: 12px;
+  color: #888;
+}
+
+.card-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+}
